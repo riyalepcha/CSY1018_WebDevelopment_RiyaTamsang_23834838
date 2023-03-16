@@ -1,0 +1,187 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 10;
+}
+/* this is for head*/
+header{
+    background-color:bisque;
+    color: palevioletred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+/* this class css is for the background img of home page*/
+.rdrd{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(205, 40, 95);
+  letter-spacing: 7px; 
+  font-size: medium;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../received_635214101740443.jpeg);
+}
+/*this css are used for navigation bar*/
+@media screen {
+  .header{
+    width: auto;
+  }
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+    margin-right:30px;
+}
+
+nav a {
+    color: rgb(26, 194, 216);
+    text-decoration: none;
+}
+/*css for portfoli*/
+.papa{
+  background-color: rgb(168, 226, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+}
+.bro{
+  
+  background-color: pink;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size: x-large;
+}
+.kaka{background-color: pink;
+  display: flex;
+  justify-content:left;
+  align-items:left;
+font-size: larger;
+}
+/* this  css is for contact page*/
+.ego{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../harli-marten-n7a2OJDSZns-unsplash.jpg);
+}
+.Submit{
+  background-color: rgb(191, 127, 138);
+  text-align: center
+  }
+ /* this css  is for footer*/
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    background-color:bisque;
+    max-width: 1170px;
+    margin: auto;
+  }
+   footer{
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 20;
+    background-color:pink;
+    color:black;
+    border: 100px;
+    font-size: medium;
+    line-height: 20px;
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  ul{
+    list-style: none;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+  .footer-col ul li a{
+    text-transform: capitalize;
+    color: rgb(77, 6, 184);
+    text-decoration: none;
+    font-weight: 200;
+    display: block;
+  }
+  /*responsive for footer*/
+  @media( max-width:767px){
+    .footer-col{
+      width: 55%;
+      margin-bottom: 30PX;
+    }
+  }
+  @media( max-width:767px){
+    .footer-col{
+      width: 100%;
+    }
+  }
+  .social-link{
+    padding: 0px;
+    margin: 10px;
+    height: 10;
+  
+  }
+  /* this css has been used forthe sitereport page*/
+  .dada img{
+  width: 40%;
+  height: 40%;
+  }
+  .dada{
+    background-color: rgb(188, 213, 232);
+  }
+  .hey{
+    background-color: pink;
+  }
+ /*for workexp page*/
+  .outer{
+    width: 800px;
+    height: 950px;
+    margin:  10px auto;
+    color: rgb(220, 15, 15);
+    background-color: pink;
+  }
+  .outer h1{
+    text-align: center;	
+  }
+  .border{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(200, 200, 200);
+    border: 1px solid white;
+    font-weight: bold;
+  }
+  .box{
+    background-color: peachpuff;
+    display: block;
+    float: right;
+    width: 20%;
+    padding: 100px;
+    padding-top: 60px;
+  }
+ .guy{
+    width:95%;
+  }
+  .be{
+    background-color: aqua;
+  }
+  
