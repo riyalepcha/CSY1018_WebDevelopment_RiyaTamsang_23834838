@@ -1,227 +1,335 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  height: 100vh;
-
-  margin: 0;
-  padding: 10;
-  height: 100vh;
-
-}
-/* this is for head*/
-
-
-header{
-    background-color:bisque;
-    color: palevioletred;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-}
-/* this class css is for the background img of home page*/
-.rdrd{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgb(205, 40, 95);
-  letter-spacing: 7px; 
-  font-size: medium;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../received_635214101740443.jpeg);
-}
-
-
-/*this css are used for navigation bar*/
-nav {
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- justify-content: space-between;
- font-size: 18px;
- font-weight: bold;
- font-family: sans-serif;
- padding: 15px;
-
-}
-nav ul {
-  list-style: none;
-display: flex;
-}
-
-nav li {
-    margin-right:20px;
-}
-
-nav a {
-  text-decoration: none;
-    color: rgb(26, 194, 216); 
-
-}
-@media( max-width:767px){
-  .list{
-    width: 55%;
-      margin-bottom: 30PX;
-  }
-}
-@media( max-width:767px){
-  .list{
-    width: 100%;
-  }
-}
-
-
-/*css for portfoli*/
-.papa{
-  background-color: rgb(168, 226, 226);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: blue;
-}
-.bro{
-  
-  background-color: pink;
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  font-size: x-large;
-}
-.kaka{background-color: pink;
-  display: flex;
-  justify-content:left;
-  align-items:left;
-font-size: larger;
-}
-/* this  css is for contact page*/
-.ego{
-  width: 100%;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-size: cover;
-  background-image: url(../harli-marten-n7a2OJDSZns-unsplash.jpg);
-}
-.Submit{
-  background-color: rgb(191, 127, 138);
-  text-align: center
-  }
- /* this css  is for footer*/
-  *{
+ * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+  }
+  
+  * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
-  .container{
-    background-color:bisque;
-    max-width: 1170px;
-    margin: auto;
+  
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  
+    margin: 0;
+    padding: 10;
+    height: 100vh;
+  
   }
-   footer{
-    padding: 20px;
-    height: auto;
+  /* this is for head*/
+  
+  
+  header{
+      background-color:bisque;
+      color: palevioletred;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+  }
+  /* this class css is for the background img of home page*/
+  .rdrd{
     width: 100%;
-    position: absolute;
-    bottom: 20;
-    background-color:pink;
-    color:black;
-    border: 100px;
-    font-size: medium;
-    line-height: 20px;
-  }
-  .row{
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(205, 40, 95);
+    letter-spacing: 7px; 
+    font-size: medium;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../received_635214101740443.jpeg);
   }
-  ul{
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+    .rdrd {
+      font-size: small;
+      letter-spacing: 5px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Adjust styles for screens up to 480px wide */
+    .rdrd {
+      font-size: x-small;
+      letter-spacing: 3px;
+    }
+  }
+  
+  /*this css are used for navigation bar*/
+  nav {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 18px;
+   font-weight: bold;
+   font-family: sans-serif;
+   padding: 15px;
+  
+  }
+  nav ul {
     list-style: none;
+  display: flex;
   }
-  .footer-col{
-    width: 25%;
-    padding: 0 15px;
+  
+  nav li {
+      margin-right:20px;
   }
-  .footer-col ul li a{
-    text-transform: capitalize;
-    color: rgb(77, 6, 184);
+  
+  nav a {
     text-decoration: none;
-    font-weight: 200;
-    display: block;
-  }
-  /*responsive for footer*/
-  @media( max-width:767px){
-    .footer-col{
-      width: 55%;
-      margin-bottom: 30PX;
-    }
-  }
-  @media( max-width:767px){
-    .footer-col{
-      width: 100%;
-    }
-  }
-  .social-link{
-    padding: 0px;
-    margin: 10px;
-    height: 10;
+      color: rgb(26, 194, 216); 
   
   }
-  /* this css has been used forthe sitereport page*/
-  .dada img{
-  width: 40%;
-  height: 40%;
+
+  /* Responsive CSS code */
+  
+  @media (max-width: 767px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    nav li {
+      margin-bottom: 10px;
+    }
   }
-  .dada{
-    background-color: rgb(170, 193, 211);
+  
+  @media screen and (max-width: 768px) {
+    .navbar-menu {
+      display: block;
+    }
+  
+    .navbar-toggle-icon {
+      display: block;
+    }
   }
-  .hey{
+  
+  .hamburger {
+    display: none; /* Hide the hamburger menu by default */
+    width: 30px;
+  height: 3px;
+  background-color: #000;
+  margin-bottom: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    .hamburger {
+      display: block; /* Show the hamburger menu on smaller screens */
+      cursor: pointer;
+    }
+  
+    nav ul {
+      display: none; /* Hide the navigation items by default */
+      flex-direction: column;
+      padding: 0;
+      margin: 0;
+    }
+  
+    nav ul.open {
+      display: flex; /* Show the navigation items when the hamburger menu is clicked */
+    }
+  }
+  
+  /*css for portfoli*/
+  .papa{
+    background-color: rgb(168, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    text-align: center;
+  }
+  .bro{
+    text-align: center;
+   margin: 20px 0;
     background-color: pink;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: large;
   }
- /*for workexp page*/
-  .outer{
-    width: 800px;
-    height: 950px;
-    margin:  10px auto;
-    color: rgb(220, 15, 15);
-    background-color: pink;
+  .kaka{background-color: pink;
+    display: flex;
+    justify-content:left;
+    align-items:left;
+  font-size: larger;
   }
-  .outer h1{
-    text-align: center;	
+  .kaka ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
   }
-  .border{
+  
+  .kaka ul li {
+    margin-bottom: 10px;
+  }
+  @media screen and (max-width: 768px) {
+    .bro {
+      margin: 10px 0;
+      font-size: large;
+    }
+    
+    .kaka ul li {
+      margin-bottom: 5px;
+    }
+    .bro img {
+      max-width: 100%;
+      height: auto;
+    }
+    .kaka {
+      font-size: medium;
+    }
+  }
+
+  /* this  css is for contact page*/
+  .ego{
     width: 100%;
-    padding: 5px;
-    background-color: rgb(200, 200, 200);
-    border: 1px solid white;
-    font-weight: bold;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../harli-marten-n7a2OJDSZns-unsplash.jpg);
   }
-  .box{
-    background-color: peachpuff;
-    display: block;
-    float: right;
-    width: 20%;
-    padding: 100px;
-    padding-top: 60px;
-  }
- .guy{
-    width:95%;
-  }
-  .be{
-    background-color: aqua;
-  }
-  
+  .Submit{
+    background-color: rgb(191, 127, 138);
+    text-align: center
+    }
+   /* this css  is for footer*/
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .container{
+      background-color:bisque;
+      max-width: 1170px;
+      margin: auto;
+    }
+     footer{
+      padding: 20px;
+      height: auto;
+      width: 100%;
+      position: absolute;
+      bottom: 20;
+      background-color:pink;
+      color:black;
+      border: 100px;
+      font-size: medium;
+      line-height: 20px;
+    }
+    .row{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    ul{
+      list-style: none;
+    }
+    .footer-col{
+      width: 25%;
+      padding: 0 15px;
+    }
+    .footer-col ul li a{
+      text-transform: capitalize;
+      color: rgb(77, 6, 184);
+      text-decoration: none;
+      font-weight: 200;
+      display: block;
+    }
+    /*responsive for footer*/
+    @media( max-width:767px){
+      .footer-col{
+        width: 55%;
+        margin-bottom: 30PX;
+      }
+    }
+    @media( max-width:767px){
+      .footer-col{
+        width: 100%;
+      }
+    }
+    .social-link{
+      padding: 0px;
+      margin: 10px;
+      height: 10;
+    
+    }
+    /* this css has been used forthe sitereport page*/
+    .dada img{
+    width: 40%;
+    height: 40%;
+    }
+    .dada{
+      background-color: rgb(170, 193, 211);
+    }
+    .hey{
+      background-color: pink;
+    }
+   /*for workexp page*/
+    .outer{
+      width: 800px;
+      height: 950px;
+      margin:  10px auto;
+      color: rgb(220, 15, 15);
+      background-color: pink;
+    }
+    .outer h1{
+      text-align: center;	
+    }
+    .border{
+      width: 100%;
+      padding: 5px;
+      background-color: rgb(200, 200, 200);
+      border: 1px solid white;
+      font-weight: bold;
+    }
+    .box{
+      background-color: peachpuff;
+      display: block;
+      float: right;
+      width: 20%;
+      padding: 100px;
+      padding-top: 60px;
+    }
+   .guy{
+      width:95%;
+    }
+    @media screen and (max-width: 768px) {
+      .outer {
+        width: 100%;
+    height: auto;
+        margin: 10px 0;
+      }
+      
+      .outer ul,
+      .outer ol {
+        padding-left: 10px;
+      }
+      .box {
+        width: 100%;
+        float: none;
+        padding: 20px;
+      }
+      
+      .guy {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    .be{
+      background-color: aqua;
+    }
+    
